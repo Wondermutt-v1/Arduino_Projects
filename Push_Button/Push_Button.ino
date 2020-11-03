@@ -4,6 +4,14 @@ if (serIn < 255){
   }else return 255;
 } 
 
+int button_Push(int digVal){
+  int x;
+  if (digVal = 0){
+    
+    return digVal;
+  } else return digVal;
+}
+
 void motor1(int digADpin, int digADVal, int anaADpin, int anaADVal){
   digitalWrite(digADpin, digADVal);
   analogWrite(anaADpin,anaADVal);
@@ -21,12 +29,9 @@ void motor1(int digADpin, int digADVal, int anaADpin, int anaADVal){
 void loop() {
   int serIn;
   int x;
-  int y = digitalRead(4);   //Read in the blue button
+  int y = !digitalRead(4);         //Read in the blue button
   int potVal = analogRead(5)/2;    // Read in the potentiometer value
-  // put your main code here, to run repeatedly:
   x = powerOut(potVal);
-  
-  int z = x;
-  motor1(7,1,9,x);
-  Serial.println(z);
+  motor1(7,y,9,x);
+  Serial.println(y);
   }
