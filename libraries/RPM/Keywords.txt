@@ -1,0 +1,13 @@
+#Datatypes 
+LITERAL1
+RPM	KEYWORD1
+#Methods and Functions
+init	KEYWORD2
+Compute_Speed	KEYWORD2
+TM3		KEYWORD2
+SetupTimer0	KEYWORD2
+GetRPM	KEYWORD2
+CentertoZero        KEYWORD2
+PID	KEYWORD2
+rpmToPrct	KEYWORD2
+prctToRPM	KEYWORD2
