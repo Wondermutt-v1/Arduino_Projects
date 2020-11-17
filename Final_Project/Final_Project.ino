@@ -1,6 +1,6 @@
 #include <EEPROM.h>
-
-#include <MyFxns.h>
+#include <Ctrlr.h>
+#include <RPM.h>
 
 MyFxns myfxns;
 enum  MOTOR_DIR_ENUM direction;
@@ -33,8 +33,6 @@ int maxvolt = analogRead(3);
 static int time_count = 0;
 static int RunTask100ms = 0;
 static int RunTask10ms = 0;
-
-
 
 
 void setup()
@@ -80,8 +78,8 @@ void setup()
      data[2]= myfxns.pwrToPrct(jMtrPwr);
      data[3] = pdrct;
      data[4]= myfxns.pwrToPrct(pMtrPwr);
-//     data[0,1,2,3,4] = (x, jdrct, myfxns.pwrToPrct(jMtrPwr), pdrct, myfxns.GetDirection(pot));
-    
+     data[5] = abs(myfxns.GetRPM());
+
        if (x ==0)
        {
        myfxns.runMotorA(jdrct ,jMtrPwr);
@@ -91,13 +89,9 @@ void setup()
         myfxns.runMotorA(pdrct ,pMtrPwr);
        }
       
-     // = myfxns.TM3(RunTask_10ms);
-     //myfxns.runMotorA(drct ,jMtrPwr);
      RunTask_10ms= myfxns.TM3(RunTask_10ms);
-     //myfxns.runMotorA(jdrct ,jMtrPwr);
-     //float pct = myfxns.pwrToPrct(jsk);
-     //float prt = myfxns.prctToRPM(jpct);
-     //Serial.println(String(x)+ ", "+ String(prt));
+     //Serial.println(data[5]);
+
  }
 
  
