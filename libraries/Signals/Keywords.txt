@@ -1,0 +1,18 @@
+#Datatypes 
+LITERAL1
+Signals	KEYWORD1
+Controller_Logic	KEYWORD1
+Motor_Controller	KEYWORD1
+#Methods and Functions
+init	KEYWORD2
+ReadBatteryVoltage	KEYWORD2
+GetDirection	KEYWORD2
+GetJoystickYValue	KEYWORD2
+Calibrate_Joystick	KEYWORD2
+Compute_Speed	KEYWORD2
+ReadPot	KEYWORD2
+GetButton	KEYWORD2
+TM3		KEYWORD2
+SetupTimer0	KEYWORD2
+prctToPwr	KEYWORD2
+batteryToHex	KEYWORD2
