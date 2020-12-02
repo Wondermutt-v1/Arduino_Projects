@@ -1,0 +1,21 @@
+#Datatypes 
+LITERAL1
+Ctrlr	KEYWORD1
+#Methods and Functions
+init	KEYWORD2
+SendCANMessage	KEYWORD2
+ReadBatteryVoltage	KEYWORD2
+GetDirection	KEYWORD2
+GetJoystickValue	KEYWORD2
+Calibrate_Joystick	KEYWORD2
+Compute_Speed	KEYWORD2
+GetPot	KEYWORD2
+button_Push	KEYWORD2
+SetMotorDir	KEYWORD2
+runMotorA	KEYWORD2
+TM3		KEYWORD2
+SetupTimer0	KEYWORD2
+CentertoZero        KEYWORD2
+PID	KEYWORD2
+pwrToPrct	KEYWORD2
+prctToPwr	KEYWORD2

@@ -1,0 +1,11 @@
+#Datatypes 
+LITERAL1
+Motor_Controller	KEYWORD1
+#Methods and Functions
+init	KEYWORD2
+runMotorA	KEYWORD2
+GetRPM	KEYWORD2
+CentertoZero        KEYWORD2
+PID	KEYWORD2
+rpmToPrct	KEYWORD2
+prctToRPM	KEYWORD2

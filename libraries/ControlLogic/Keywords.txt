@@ -1,0 +1,13 @@
+#Datatypes 
+LITERAL1
+ControlLogic	KEYWORD1
+#Methods and Functions
+init	KEYWORD2
+SendCANMessage	KEYWORD2
+GetDirection	KEYWORD2
+PID     KEYWORD2
+Compute_Speed	KEYWORD2
+GetButton	KEYWORD2
+TM3		KEYWORD2
+SetupTimer0	KEYWORD2
+CalculateRPM	KEYWORD2
