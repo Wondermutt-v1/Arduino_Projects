@@ -1,6 +1,7 @@
 {
-    "port": "COM7",
-    "board": "arduino:avr:uno",
+    "port": "COM8",
+    "board": "arduino:avr:mega",
     "programmer": "ArduinoISP",
-    "sketch": "Push_Button\\Push_Button.ino"
+    "sketch": "Push_Button\\Push_Button.ino",
+    "configuration": "cpu=atmega2560"
 }
